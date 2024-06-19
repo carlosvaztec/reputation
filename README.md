@@ -22,9 +22,21 @@ What if you could use a mobile app to build trust by verifying a service provide
   - measure the real impact on real users
 
 
+## Main components 
+
+- Starknet-Devnet-rs for running local networks
+- Scarb to build/compile smart contracts
+- StarknetJS as low-level interface that provides primitives to interact with Starknet. Declaring and deploying smart contracts.The alternative to starknet-rs.
+- Starknet-React Collection of React hooks wrapper around starknet-react to simplify interactions with smart contracts with typescript autocompletion.
+- NextJS for building a frontend, using many useful pre-made hooks.
+
+By Scaffold-Stark 2: https://www.docs.scaffoldstark.com/
+
 ## quick start
 1. clone this repo *including submodules*:
 $ git clone https://github.com/carlosvaztec/reputation --recurse-submodules
+
+2. check requirements session in 
 
 3. Have a look in package.json scripts, and:
 - in terminal 1 start local testnet (this requires dev-net to be built locally):
