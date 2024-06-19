@@ -21,5 +21,15 @@ What if you could use a mobile app to build trust by verifying a service provide
   - allocate funds (public/private)
   - measure the real impact on real users
 
-## Setup
-For now, to set up this project, follow https://github.com/Quantum3-Labs/scaffold-stark-2?tab=readme-ov-file.
+
+## quick start
+1. clone this repo *including submodules*:
+$ git clone https://github.com/carlosvaztec/reputation --recurse-submodules
+
+3. Have a look in package.json scripts, and:
+- in terminal 1 start local testnet (this requires dev-net to be built locally):
+$ yarn chain
+- in terminal 2 start application: 
+$ yarn start
+
+
